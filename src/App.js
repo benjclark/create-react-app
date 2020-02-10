@@ -20,8 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
-      <div className="fuzzy-match-container">
-        <FuzzyMatchInput answer="grape"/>
+      <div
+        className="fuzzy-match-container"
+        style={{display: `flex`, alignItems: `center`, height: `300px`, margin: `0 auto`, justifyContent: `space-between`, width: `300px`}}
+      >
+        <FuzzyMatchInput answer="strawberry"/>
       </div>
     </div>
   );
